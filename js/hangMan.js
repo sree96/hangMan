@@ -28,7 +28,7 @@ const loadGame=function (word) {
         document.getElementById('error').innerText+=letter;
         misses++;
         let partOne=document.getElementById('partOne');
-        let imgPath=`../img/hang_step_${misses}.png`
+        let imgPath=`/img/hang_step_${misses}.png`
         partOne.style.backgroundImage="url("+imgPath+")"
       }
     }
