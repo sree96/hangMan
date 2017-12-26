@@ -3,7 +3,7 @@ const startGame=function () {
   let dashText=dashTextGenarator(randomWord);
   let wordTextId=document.getElementById('wordText');
   setText(dashText,wordTextId);
-  setText(dashText.length,document.getElementById('charCount'))
+  setText(dashText.length,document.getElementById('charCount'));
   loadGame(randomWord);
 };
 
